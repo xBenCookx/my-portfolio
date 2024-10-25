@@ -222,19 +222,19 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 #wifi {
-  background-image: url(/02-Advanced-CSS/02-Challenge/Develop/assets/images/git.jpg);
+  background-image: url(/assets/images/git.jpg);
 }
 
 #recipe{
-  background-image: url(/02-Advanced-CSS/02-Challenge/Develop/assets/images/recipe.jpg);
+  background-image: url(/assets/images/recipe.jpg);
 }
 
 #study{
-  background-image: url(/02-Advanced-CSS/02-Challenge/Develop/assets/images/notebook.avif);
+  background-image: url(/assets/images/notebook.avif);
 }
 
 #na {
-  background-image: url(/02-Advanced-CSS/02-Challenge/Develop/assets/images/na.jpeg);
+  background-image: url(/assets/images/na.jpeg);
 }
 
 
@@ -292,6 +292,10 @@ main {
 
   header nav {
     justify-content: center;
+  }
+
+  .flex-container {
+    flex-direction: column;
   }
 
   .page-section > h2,
