@@ -223,18 +223,24 @@ main {
 /* TODO: Add portfolio project images here using background images*/
 #wifi {
   background-image: url(/assets/images/git.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #recipe{
   background-image: url(/assets/images/recipe.jpg);
+  background-size: 600px;
 }
 
 #study{
   background-image: url(/assets/images/notebook.avif);
+  background-size: contain;
 }
 
 #na {
   background-image: url(/assets/images/na.jpeg);
+  background-size: 600px;
 }
 
 
